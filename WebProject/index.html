@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gardening Contact Form</title>
+		<link rel="stylesheet" href="./css/main.css" type="text/css" />
+		<script type="text/javascript" src="./js/main.js"></script>
+	</head>
+	<body id="home">
+		<div class="wrapper">
+			<header class="header">
+				<div class="logo"></div>
+				<nav class="nav">
+					<ul>
+						<li><a href="#" class="btn1"></a></li>
+						<li><a href="#" class="btn2"></a></li>
+						<li><a href="#" class="btn3"></a></li>
+						<li><a href="#" class="btn4"></a></li>
+						<li><a href="#" class="btn5"></a></li>
+						<li><a href="#" class="btn6"></a></li>						
+					</ul>
+				</nav>
+			</header>
+			<div class="main">
+				<h1>CONTACT</h1>
+				<article>
+					<p class="info">Praesent sit amet nunc turpis, ac lacinia felis. Sed vel tincidunt velit. Nam ac turpis at est eleifend sollicitudin quis<br/>
+					 sit amet libero. Suspendisse metus quam, viverra id scelerisque vitae, varius eget turpis. 
+					</p>
+					<p class="info2">Sed posuere interdum diam, a molestie neque venenatis dictum. Maecenas rutrum, dolor et tincidunt lacinia, quam lorem tempus<br/>
+					 quam, at tincidunt erat lorem et mi. Sed ut sodales nibh. Ut nec magna eu leo laoreet consequat a et enim. Fusce viverra eleifend<br/>
+					 mi in ullamcorper			
+					</p>
+				</article>
+				<section>
+					<form method="post" action="whatevermailscript.php" name="ContactForm" onsubmit="return ValidateContactForm()">
+						<table>
+							<tbody>
+								<tr>
+									<td>
+										<span class="contact_info">Address</span>
+									</td>
+									<td>
+										<span class="contact_info2">: 189 Lorem Ipsum Pellentes Mauris Etiam ut velit odio Proin nisi 0000</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="contact_info">Phone Number</span>
+									</td>
+									<td>
+										<span class="contact_info2">: 117-683-9187-000</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="contact_info">Email</span>
+									</td>
+									<td>
+										<span class="contact_info2">: company@email.com</span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="fname">Name:<span id="reN" class="star"></span></label>
+									</td>
+									<td>
+										<div class="name"><input id="fname" type="text" name="Name" size="30"></div>
+										<label for="email">Email:<span id="reE" class="star"></span></label>
+										<div class="email"><input id="email" type="text" name="Email" size="30"></div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="subject">Subject:<span id="reS" class="star"></span></label>
+									</td>
+									<td>
+										<div class="styled-select">
+											<select name="Subject" id="subject">
+											  <option class="option">select subject</option>
+											  <option class="option">subject 1</option>
+											  <option class="option">subject 2</option>
+											</select>
+										</div>
+									</td>
+								<tr>
+									<td>
+										<label for="message">Message:<span id="reM" class="star"></span></label>
+									</td>
+									<td>
+										<div class="msg">
+											<textarea name="Comment" rows="2" cols="30" id="message"></textarea>
+										</div>
+										<input type="checkbox" name="subscribe" id="subscribe"/><label for="subscribe"></label><span class="sign">Subscribe to news letter</span>
+										<input type="checkbox" name="agree" id="agree"><label for="agree"></label><span class="sign">I agree to the terms and conditions</span> 
+										<input class="send" type="submit" value=" "/>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</section>				
+			</div>
+			<footer>
+				<aside>
+					<h3>Magazine & Books</h3>
+					<p>Fusce interdum vestibulum<br/>lacus, sagittis sagittis mauris </p>
+					<div class="magazine"></div>
+				</aside>
+				<aside>
+					<h3>Gallery</h3>
+					<h5>Donec a quam quis est</h5>
+					<div class="people"></div>
+					<p>Nam eu tellus a sem laoreet vel<br/>pulvinarid nisi at risus sit<br/><span>by: Lizah</span></p>
+					<a href="#">View all Photos</a>
+				</aside>
+				<aside>
+					<h3>Suppliers Directory</h3>
+					<h5>Lorem ipsum dolor</h5>
+					<span>Vivamus placerat eros aligula vulpu</span><br/>
+					<span>(+36) 924-068-207</span>
+					<h5>Molestie Faucibus</h5>
+					<span>Proin magna velit, mattis porttitor</span><br/>
+					<span>(+36) 924-068-207</span>
+					<h5>Vestibulum Matti</h5>
+					<span>(+36) 924-068-207</span>
+					<a href="#" class="suppliers">View all Suppliers</a>
+				</aside>
+				<aside>
+					<h3>Get in Touch</h3>
+					<ul>
+						<li>E-mail :</li>
+						<li>company@email.com</li>
+						<li>Address :</li>
+						<li>189 Lorem Ipsum Pellentes<br/>Mauris Etiam ut velit odio<br/>Proin nisi 0000</li>
+						<li>Phone :</li>
+						<li>117-683-9187-000</li>
+					</ul>
+				</aside>
+				<div class="footer">
+					<span>Join us on Facebook & Twitter</span>
+					<span class="copyright">Copyright &copy; 2012.All rights reserved</span>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

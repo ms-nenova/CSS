@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="./css/main.css" type="text/css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<img class="calc" src="./img/calc.jpg" alt="calculator"/>
+				<span>Calculator</span> 
+				<img class="btns" src="./img/buttons.png" alt="buttons"/>
+			</header>
+			<section class="nav">
+				<nav>
+					<ul>
+						<li id="first">View</li>
+						<li>Edit</li>
+						<li>Help</li>
+					</ul>
+				</nav>
+				<div>
+					<input type="text" value="88544550" class="number_area"/>
+				</div>
+				<div class="number_area bits">
+					<section>
+						<ul>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li class="bits_left">63</li>
+							<li class="bits_mid">47</li>
+							<li>32</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+							<li>0000</li>
+						</ul>
+					</section>
+					<section>
+						<ul class="bitPosition">
+							<li class="bits_left">31</li>
+							<li class="bits_mid">15</li>
+							<li class="bits_right">0</li>
+						</ul>
+					</section>
+				</div>
+				<div class="left">
+					<section class="number_area numeral_systems">
+						<div><input type="radio" name="group1" />Hex</div>
+						<div><input type="radio" name="group1" checked />Dec</div>
+						<div><input type="radio" name="group1" />Oct</div>
+						<div><input type="radio" name="group1" />Bin</div>
+					</section>
+					<section class="number_area numeral_systems">
+						<div><input type="radio" name="group2" checked />Qword</div>
+						<div><input type="radio" name="group2" />Dword</div>
+						<div><input type="radio" name="group2" />Word</div>
+						<div><input type="radio" name="group2" />Byte</div>
+					</section>
+				</div>
+				<div class="buttons">
+					<section>
+						<button class="number_area not_active">&nbsp;</button>
+						<button class="number_area options">Mod</button>
+						<button class="number_area not_active">A</button>
+						<button class="number_area calculations">MC</button>
+						<button class="number_area calculations">MR</button>
+						<button class="number_area calculations">MS</button>
+						<button class="number_area calculations">M+</button>
+						<button class="number_area calculations">M-</button>
+					</section>
+					<section>
+						<button class="number_area options">(</button>
+						<button class="number_area options">)</button>
+						<button class="number_area not_active">B</button>
+						<button class="number_area options">&larr;</button>
+						<button class="number_area options">CE</button>
+						<button class="number_area options">C</button>
+						<button class="number_area options">&#177;</button>
+						<button class="number_area not_active">&#8730;</button>
+					</section>
+					<section>
+						<button class="number_area options">RoL</button>
+						<button class="number_area options">RoR</button>
+						<button class="number_area not_active">C</button>
+						<button class="number_area numbers">7</button>
+						<button class="number_area numbers">8</button>
+						<button class="number_area numbers">9</button>
+						<button class="number_area options">/</button>
+						<button class="number_area not_active">%</button>
+					</section>
+					<section>
+						<button class="number_area options">Or</button>
+						<button class="number_area options">Xor</button>
+						<button class="number_area not_active">D</button>
+						<button class="number_area numbers">4</button>
+						<button class="number_area numbers">5</button>
+						<button class="number_area numbers">6</button>
+						<button class="number_area options">*</button>
+						<button class="number_area not_active">1/&chi;</button>
+					</section>
+					<section>
+						<button class="number_area options equal">=</button>
+					</section>
+					<section>
+						<button class="number_area options">Lsh</button>
+						<button class="number_area options">Rsh</button>
+						<button class="number_area not_active">E</button>
+						<button class="number_area numbers">1</button>
+						<button class="number_area numbers">2</button>
+						<button class="number_area numbers">3</button>
+						<button class="number_area options">-</button>
+					</section>
+					<section>
+						<button class="number_area options">Not</button>
+						<button class="number_area options">And</button>
+						<button class="number_area not_active">F</button>
+						<button class="number_area numbers zero">0</button>
+						<button class="number_area not_active">.</button>
+						<button class="number_area options">+</button>
+					</section>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

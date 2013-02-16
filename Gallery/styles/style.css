@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  margin: 0px auto;
+  width: 980px;
+}
+body form nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+body form nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+body form nav ul li img {
+  width: 120px;
+  height: 90px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+body form nav ul li img:hover {
+  border: solid 1px #cccccc;
+  -moz-box-shadow: 1px 1px 5px #999999;
+  -webkit-box-shadow: 1px 1px 5px #999999;
+  box-shadow: 1px 1px 5px #999999;
+  opacity: 0.5;
+}
+body form nav ul li:nth-child(4) img {
+  width: 75px;
+  height: 90px;
+}
+body form section {
+  position: relative;
+  margin: 0px auto;
+  padding: 5px;
+}
+body form section input[type="radio"] {
+  display: none;
+}
+body form section input[type="radio"]:checked + img {
+  z-index: 1;
+  visibility: visible;
+}
+body form section img {
+  border-radius: 5px;
+  z-index: -1;
+  visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  margin-left: 180px;
+  padding: 5px;
+  border: solid 1px #cccccc;
+  -moz-box-shadow: 1px 1px 5px #999999;
+  -webkit-box-shadow: 1px 1px 5px #999999;
+  box-shadow: 1px 1px 5px #999999;
+}
